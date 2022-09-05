@@ -55,4 +55,8 @@ window.addEventListener('mousedown', testClick);
 window.addEventListener('mouseup', () => isDrawing = false);
 canvas.addEventListener('mouseenter', handleColor, true);
 canvas.addEventListener('click', handleColor);
+
+clearButton.addEventListener('click', () => {
+    makeGrid(size.value);
+});
 makeGrid(size.value);
