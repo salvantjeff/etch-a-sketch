@@ -46,4 +46,7 @@ header {
     color: white;
     text-align: center;
     font-size: clamp(1rem, 3vw, 1.5rem);
+
+    margin-bottom: 1em;
+    padding: 1em;
 }
