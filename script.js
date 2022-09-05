@@ -53,4 +53,5 @@ function handleColor(e) {
 size.addEventListener('change', getSize);
 window.addEventListener('mousedown', testClick);
 window.addEventListener('mouseup', () => isDrawing = false);
+canvas.addEventListener('mouseenter', handleColor, true);
 makeGrid(size.value);
