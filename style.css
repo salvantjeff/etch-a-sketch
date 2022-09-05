@@ -96,3 +96,7 @@ label {
 button:hover {
     scale: 1;
 }
+
+button:focus {
+    scale: 0.95;
+}
