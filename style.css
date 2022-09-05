@@ -114,4 +114,8 @@ button:focus {
 .canvas {
     height: 100%;
     width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(var(--dimensions), 1fr);
+    grid-template-rows: repeat(var(--dimensions), 1fr); 
 }
