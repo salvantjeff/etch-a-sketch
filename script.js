@@ -14,4 +14,12 @@ function getSize() {
     makeGrid(dimensions)
 }
 
+function makeGrid(number) {
+    let dims = Array.from({length: number*number}, () => 0);
+    document.documentElement.style.setProperty('--dimensions',`${number}`)
+    canvas.innerHTML = dims.map(() => {
+        return `<div class="square"></div>`;
+    }).join('');
+}
+
 size.addEventListener('change', getSize);
