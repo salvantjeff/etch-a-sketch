@@ -119,3 +119,10 @@ button:focus {
     grid-template-columns: repeat(var(--dimensions), 1fr);
     grid-template-rows: repeat(var(--dimensions), 1fr); 
 }
+
+/* CREATED JS ELEMENTS */
+.square {
+    height: 100%;
+    width: 100%;
+    background-color: #ebebeb;
+}
