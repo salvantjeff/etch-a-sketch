@@ -74,6 +74,12 @@ aside {
       display: grid;
       grid-template-columns: 1fr 3fr;  
     }
+    
+    aside {
+        width: clamp(200px, 30vw, 250px);
+        max-height: 500px;
+        justify-self: center;
+    }
 }
 
 /* ASIDE AREA - inputs */
