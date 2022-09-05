@@ -6,3 +6,5 @@ const eraser = document.querySelector('.eraser');
 const squares = document.querySelectorAll('.square');
 const colorChoice = document.getElementById('color');
 const colorMode = document.querySelector('.colorMode');
+
+size.addEventListener('change', getSize);
