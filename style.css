@@ -83,4 +83,6 @@ input[type="color"] {
 
 label {
     display: block;
+    margin-bottom: 0.5em;
+    text-align: center;
 }
