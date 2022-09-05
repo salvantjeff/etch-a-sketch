@@ -7,6 +7,8 @@ const squares = document.querySelectorAll('.square');
 const colorChoice = document.getElementById('color');
 const colorMode = document.querySelector('.colorMode');
 
+let isDrawing = false;
+
 function getSize() {
     let dimensions = parseInt(this.value);
     console.log(dimensions)
