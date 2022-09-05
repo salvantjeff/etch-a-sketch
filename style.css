@@ -50,3 +50,9 @@ header {
     margin-bottom: 1em;
     padding: 1em;
 }
+
+/* MAIN AREA */
+main {
+    display: grid;
+    gap: 2em;
+}
