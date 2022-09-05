@@ -106,4 +106,7 @@ button:focus {
     width: clamp(250px, 50vw, 600px); 
     min-height: clamp(250px, 50vw, 600px);
     box-shadow: 0 0 5px #bdbdbd;
+
+    display: grid;
+    padding: 1em;
 }
