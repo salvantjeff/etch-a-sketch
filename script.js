@@ -63,4 +63,12 @@ clearButton.addEventListener('click', () => {
 colorChoice.addEventListener('input', () => {
     theChosenOne = colorChoice.value;
 });
+
+colorMode.addEventListener('click', () => {
+    colorMode.classList.add('selected');
+    eraser.classList.remove('selected');
+    inColorMode = true;
+    inEraserMode = false;
+});
+
 makeGrid(size.value);
