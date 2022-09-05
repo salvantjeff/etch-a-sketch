@@ -23,3 +23,5 @@ function makeGrid(number) {
 }
 
 size.addEventListener('change', getSize);
+
+makeGrid(size.value);
