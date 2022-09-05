@@ -59,4 +59,8 @@ canvas.addEventListener('click', handleColor);
 clearButton.addEventListener('click', () => {
     makeGrid(size.value);
 });
+
+colorChoice.addEventListener('input', () => {
+    theChosenOne = colorChoice.value;
+});
 makeGrid(size.value);
