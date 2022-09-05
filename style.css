@@ -12,3 +12,12 @@
     margin: 0;
     padding: 0;
 }
+
+/* Inputs and Buttons defaults */
+button,
+input {
+  font: inherit;
+  border: none;
+  padding: 1em;
+  display: block;
+}
