@@ -126,3 +126,7 @@ button:focus {
     width: 100%;
     background-color: #ebebeb;
 }
+
+.square.color-it {
+    background-color: #222;
+}
