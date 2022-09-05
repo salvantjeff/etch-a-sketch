@@ -51,5 +51,6 @@ function handleColor(e) {
 }
 
 size.addEventListener('change', getSize);
+window.addEventListener('mousedown', testClick);
 
 makeGrid(size.value);
