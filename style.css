@@ -44,4 +44,6 @@ body {
 header {
     background-color: #7678ed;
     color: white;
+    text-align: center;
+    font-size: clamp(1rem, 3vw, 1.5rem);
 }
