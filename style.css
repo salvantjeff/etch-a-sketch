@@ -39,3 +39,9 @@ body {
     display: grid;
     gap:1em;
 }
+
+/* HEADER AREA */
+header {
+    background-color: #7678ed;
+    color: white;
+}
