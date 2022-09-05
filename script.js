@@ -39,6 +39,17 @@ function testClick(e) {
     }
 }
 
+function handleColor(e) {
+    if (e.target.matches('.square')) {
+        if (!isDrawing) return;
+        if (inColorMode) {
+          e.target.setAttribute('style', `background-color:${theChosenOne}`);
+        } else {
+          e.target.style.removeProperty('background-color');
+        }
+    }
+}
+
 size.addEventListener('change', getSize);
 
 makeGrid(size.value);
