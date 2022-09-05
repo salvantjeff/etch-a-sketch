@@ -26,3 +26,9 @@ button {
     border-radius: 1.5em;
     scale: 0.95;
 }
+
+/* Body defaults */
+body {
+    color: #222;
+    font-family: 'Poppins', sans-serif;
+}
