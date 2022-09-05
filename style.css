@@ -100,3 +100,10 @@ button:hover {
 button:focus {
     scale: 0.95;
 }
+
+/* CANVAS AREA */
+.canvas-block {
+    width: clamp(250px, 50vw, 600px); 
+    min-height: clamp(250px, 50vw, 600px);
+    box-shadow: 0 0 5px #bdbdbd;
+}
