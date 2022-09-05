@@ -8,6 +8,7 @@ const colorChoice = document.getElementById('color');
 const colorMode = document.querySelector('.colorMode');
 
 let isDrawing = false;
+let inColorMode = true;
 
 function getSize() {
     let dimensions = parseInt(this.value);
