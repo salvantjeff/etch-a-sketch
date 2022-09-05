@@ -24,4 +24,5 @@ input {
 
 button {
     border-radius: 1.5em;
+    scale: 0.95;
 }
