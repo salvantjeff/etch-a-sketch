@@ -71,4 +71,12 @@ colorMode.addEventListener('click', () => {
     inEraserMode = false;
 });
 
+eraser.addEventListener('click', () => {
+    eraser.classList.add('selected');
+    colorMode.classList.remove('selected');
+    console.log('in eraser mode');
+    inColorMode = false;
+    inEraserMode = true;
+});
+
 makeGrid(size.value);
