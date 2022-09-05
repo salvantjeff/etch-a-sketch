@@ -27,6 +27,18 @@ function makeGrid(number) {
     }).join('');
 }
 
+function testClick(e) {
+    e.stopPropagation();
+    if (e.target.matches('.square')) {
+        isDrawing = true;
+        if (inColorMode) {
+          e.target.setAttribute('style', `background-color:${theChosenOne}`);
+        } else {
+          e.target.style.removeProperty('background-color');
+        }
+    }
+}
+
 size.addEventListener('change', getSize);
 
 makeGrid(size.value);
