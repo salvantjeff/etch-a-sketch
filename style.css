@@ -69,6 +69,13 @@ aside {
     padding: 1em;
 }
 
+@media (min-width: 500px) {
+    main {
+      display: grid;
+      grid-template-columns: 1fr 3fr;  
+    }
+}
+
 /* ASIDE AREA - inputs */
 input[type="color"] {
     padding: 0.2em;
