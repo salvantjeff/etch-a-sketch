@@ -130,3 +130,9 @@ button:focus {
 .square.color-it {
     background-color: #222;
 }
+
+/* FOOTER AREA */
+footer {
+    text-align: center;
+}
+  
