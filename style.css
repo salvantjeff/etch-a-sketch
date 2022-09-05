@@ -89,6 +89,10 @@ label {
 
 .colorMode.selected,
 .eraser.selected {
-  background-color: #40bd61;
-  color: white;
+    background-color: #40bd61;
+    color: white;
+}
+
+button:hover {
+    scale: 1;
 }
