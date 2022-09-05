@@ -21,3 +21,7 @@ input {
   padding: 1em;
   display: block;
 }
+
+button {
+    border-radius: 1.5em;
+}
