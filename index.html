@@ -13,27 +13,32 @@
 
 <body>
     <div class="wrapper">
-        <header>
-            <h1>Etch-a-Sketch</h1>
-        </header>
-        <main>
-            <aside class="controls">
-                <p>
-                    <label for="color">Pen color</label>
-                    <input type="color" id="color">
-                </p>
-                <button class="colorMode selected">Color mode</button>
-                <button class="eraser">Eraser</button>
-                <button class="clear">Clear</button>
-                <p>
-                    <label for="canvas-size">10 X 10</label>
-                    <input type="range" value="10" id="canvas-size" name="canvas-size" min="1" max="100" step="1">
-                </p>
-            </aside>
-            <div class="canvas-block">
-                <div class="canvas"></div>
-            </div>
-        </main>
+        <div class="top-section">
+            <header>
+                <h1>Etch-a-Sketch</h1>
+            </header>
+            <main class="main-section">
+                <div class="content-wrapper">
+                    <div class="canvas-block">
+                        <div class="canvas"></div>
+                    </div>
+                    <aside class="controls">
+                        <p>
+                            <!-- <label for="color">Pen color</label> -->
+                            <input type="color" id="color">
+                        </p>
+                        <button class="colorMode selected">Color mode</button>
+                        <button class="eraser">Eraser</button>
+                        <button class="clear">Clear</button>
+                        <p class="size-slider">
+                            <label for="canvas-size">10 X 10</label>
+                            <input type="range" value="10" id="canvas-size" name="canvas-size" min="1" max="100"
+                                step="1">
+                        </p>
+                    </aside>
+                </div>
+            </main>
+        </div>
         <footer>
             <p>Copyright © 2022 salvantjeff</p>
         </footer>
