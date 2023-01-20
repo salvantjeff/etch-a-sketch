@@ -59,7 +59,7 @@ header {
 }
 
 .content-wrapper {
-    background-color: red;
+    background-color: #3a86ff;
     display: grid;
     gap: 1rem;
     padding: 1rem;
@@ -71,7 +71,7 @@ header {
     flex-wrap: wrap;
     align-items: center;
     gap: 1em;
-    background-color: rgb(19, 251, 255);
+    background-color: #ff006e;
     box-shadow: 0 0 5px #bdbdbd;
     border-radius: 0.8em;
     padding: 1em;
@@ -124,7 +124,7 @@ button:focus {
     width: clamp(450px, 50vw, 650px);
     min-height: clamp(450px, 50vw, 650px);
     box-shadow: 0 0 5px #bdbdbd;
-    background-color: rgb(191, 173, 255);
+    background-color: #ffbe0b;
     display: grid;
     padding: 1em;
     justify-self: center;
