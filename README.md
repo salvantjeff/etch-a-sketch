@@ -1,7 +1,7 @@
 # etch-a-sketch
 
 ## [Live Demo](https://salvantjeff.github.io/etch-a-sketch/)
-![Sketch](images/final-sketch.png)
+![Sketch](images/jobs-screenshot1.png)
 
 ## Introduction 
 
