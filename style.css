@@ -16,15 +16,17 @@
 /* Inputs and Buttons defaults */
 button,
 input {
-  font: inherit;
-  border: none;
-  padding: 1em;
-  display: block;
+    font: inherit;
+    border: none;
+    padding: 1em;
+    display: block;
+    cursor: pointer;
 }
 
 button {
-    border-radius: 1.5em;
+    border-radius: 1rem;
     scale: 0.95;
+    width: 130px;
 }
 
 /* Body defaults */
@@ -36,8 +38,9 @@ body {
 /* Components */
 .wrapper {
     min-height: 100vh;
-    display: grid;
-    gap:1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* HEADER AREA */
@@ -51,30 +54,34 @@ header {
     padding: 1em;
 }
 
-/* MAIN AREA */
-main {
+.content-wrapper {
+    background-color: red;
     display: grid;
-    gap: 2em;
-    padding: 0 1em 2em;
 }
 
-/* ASIDE AREA */
-aside {
-    display: grid;
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: pink;
     gap: 1em;
-    max-width: 250px;
 
     box-shadow: 0 0 5px #bdbdbd;
     border-radius: 0.8em;
     padding: 1em;
 }
 
+#color,
+#canvas-size {
+    min-width: 100px;
+}
+
 @media (min-width: 500px) {
     main {
-      display: grid;
-      grid-template-columns: 1fr 3fr;  
+        display: grid;
+        grid-template-columns: 1fr 3fr;
     }
-    
+
     aside {
         width: clamp(200px, 30vw, 250px);
         max-height: 500px;
@@ -116,7 +123,7 @@ button:focus {
 
 /* CANVAS AREA */
 .canvas-block {
-    width: clamp(250px, 50vw, 600px); 
+    width: clamp(250px, 50vw, 600px);
     min-height: clamp(250px, 50vw, 600px);
     box-shadow: 0 0 5px #bdbdbd;
 
@@ -130,7 +137,7 @@ button:focus {
 
     display: grid;
     grid-template-columns: repeat(var(--dimensions), 1fr);
-    grid-template-rows: repeat(var(--dimensions), 1fr); 
+    grid-template-rows: repeat(var(--dimensions), 1fr);
 }
 
 /* CREATED JS ELEMENTS */
@@ -149,4 +156,3 @@ footer {
     text-align: center;
     padding: 0.5em 0 0.5em;
 }
-  
